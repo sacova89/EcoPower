@@ -72,3 +72,9 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Videogame files, and folders.
+EcoPower/Library
+EcoPower/Logs
+EcoPower/Packages
+EcoPower/Temp
+EcoPower/ProjectSettings
+EcoPower/UserSettings
