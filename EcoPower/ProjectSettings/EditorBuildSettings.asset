@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/NIVEL 3 FUEGO VIGORIZANTE.unity
+    guid: 5ffbb4c87aba19141b0836b56d2b4841
+  - enabled: 1
+    path: Assets/Scenes/INTRO.unity
+    guid: 5c390ef2447285142a4cc1805659bf2e
   m_configObjects: {}
