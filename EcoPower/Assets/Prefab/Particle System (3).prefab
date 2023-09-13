@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 6250521463914835881}
   - component: {fileID: 5527083178690207022}
   - component: {fileID: 2433785319518506284}
-  - component: {fileID: 1731991984061992714}
   - component: {fileID: 7373250143099385211}
   - component: {fileID: 7476238263294268031}
+  - component: {fileID: 1242070917990938853}
   m_Layer: 0
   m_Name: Particle System (3)
   m_TagString: Untagged
@@ -4928,20 +4928,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1731991984061992714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4409344845616154960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fdf869c4a2bf954287b022049f27a87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  efectoDesaparicion: {fileID: 2965222256817593503, guid: a164e676dbbd6e54587237e619372c98, type: 3}
-  sonidoDesaparicion: {fileID: 8300000, guid: bbeccdff07687416cb13576c47b65e79, type: 3}
 --- !u!65 &7373250143099385211
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5025,3 +5011,17 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1242070917990938853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4409344845616154960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bf6d506b21422743bb05e4a9a554de7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoDesaparicion: {fileID: 2965222256817593503, guid: a164e676dbbd6e54587237e619372c98, type: 3}
+  sonidoDesaparicion: {fileID: 8300000, guid: bbeccdff07687416cb13576c47b65e79, type: 3}
